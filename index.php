@@ -3,7 +3,7 @@
 
     // fetch random image from directory
     $dir = dirname(__FILE__);
-    $file = $dir.'/autoreply/image-'.$number.'.jpg';
+    $file = $dir.'/image-'.$number.'.jpg';
 
     // write out
     $type = 'image/jpg';
