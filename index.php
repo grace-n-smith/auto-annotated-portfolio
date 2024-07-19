@@ -1,10 +1,10 @@
-    $image_count = 5; // lets say you have six images from 0-5
+    $image_count = 4; // lets say you have 5 images from 0-4
     $number = rand( 0 , $image_count );
 
     // fetch random image from directory
     $dir = dirname(__FILE__);
     $file = $dir.'/autoreply/image-'.$number.'.jpg';
-https://github.com/grace-n-smith/auto-annotated-portfolio/tree/main
+
     // write out
     $type = 'image/jpg';
     header('Content-Type:'.$type);
